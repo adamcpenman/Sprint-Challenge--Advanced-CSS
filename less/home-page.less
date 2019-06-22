@@ -4,6 +4,15 @@
 
   .intro {
 
+    .main-head {
+
+      @media @phone {
+        width: 100%;
+        border-radius: .5rem;
+      }
+
+    }
+
     h2 {
       padding: 15px;
     }
@@ -17,7 +26,25 @@
   .space-images {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 100%; 
+
+    @media @phone {
+      .custom-layout ();
+
+      .blast {
+        width: 45rem;
+        height: 35rem;
+       }
+
+      .sky {
+        display:none;
+      }
+
+      .launch {
+        display: none;
+      }
+
+    }
 
     img {
       width: 28%;
@@ -46,8 +73,17 @@
     display: flex;
     justify-content: center;
 
+    @media @phone {
+      .custom-layout(column-reverse nowrap, flex-start, center);
+     
+    }
+
     .walk-text {
       width: 50%;
+
+      @media @phone {
+        width: 45rem;
+        }
 
       h3 {
         margin-bottom: 10px;
@@ -58,18 +94,28 @@
       }
 
       .btn {
-        .sgn-up (10rem, 3.5rem, .9rem);
+        .sgn-up (10rem, 3.5rem, .7rem);
+
+        @media @phone {
+          .sgn-up (45rem, 6rem, 2rem);
+        }
       }
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
+
+      @media @phone {
+        width: 45rem;
+        margin-right: 5%;
+       }
       
       img {
         width: 100%;
         height: auto;
         border-radius: 10px;
+
       }
     }
   }
