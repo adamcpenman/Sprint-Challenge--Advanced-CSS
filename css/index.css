@@ -329,6 +329,87 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.home .mag-sub {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  .home .mag-sub {
+    margin-bottom: 4rem;
+  }
+}
+.home .mag-sub .mag {
+  border: 1px solid #dee2e6;
+  padding: 2rem;
+  background-color: #F6F6F6;
+}
+.home .mag-sub a {
+  text-decoration: none;
+}
+.galaxy {
+  width: 80rem;
+  height: 20rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+}
+@media (max-width: 500px) {
+  .galaxy {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+.contact-form {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+  line-height: 2.5rem;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+}
+.contact-form h2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 1rem;
+  color: #454A59;
+}
+@media (max-width: 500px) {
+  .contact-form h2 {
+    width: 50%;
+    text-align: center;
+  }
+}
+.contact-form .form-control {
+  width: 30rem;
+  height: 2rem;
+}
+.contact-form .textarea {
+  width: 30rem;
+  height: 10rem;
+}
+.contact-form .submit {
+  border: 1px solid black;
+  width: 8rem;
+  height: 3rem;
+  background-color: black;
+  color: white;
+  border-radius: 0.6rem;
+  text-align: center;
+  padding-top: 0.3rem;
+  font-size: 2rem;
+}
+.contact-form .submit:hover {
+  background-color: white;
+  color: black;
+}
 .package-form {
   display: flex;
   flex-flow: column wrap;
@@ -338,12 +419,20 @@ footer {
   padding-bottom: 2rem;
   margin-top: 2rem;
   line-height: 3.5rem;
-  border: 1px solid #dee2e6;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
 }
 .package-form h2 {
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin-top: 1rem;
+  color: #454A59;
+}
+@media (max-width: 500px) {
+  .package-form h2 {
+    width: 50%;
+    text-align: center;
+  }
 }
 .package-form .form-control {
   width: 40rem;
