@@ -6,3 +6,20 @@
     justify-content: @justify;
     align-items: @align;
 };
+
+.sgn-up(@width: 5rem, @height: 2rem, @padding: .9rem) {
+   border: 1px solid black;
+  width: @width;
+  height: @height;
+  background-color: black;
+  color:white;
+  border-radius: .6rem;
+  text-align: center;
+  padding-top: @padding;
+  font-size: 2rem;
+
+  &:hover {
+      background-color: white;
+      color: black;
+  }
+}
