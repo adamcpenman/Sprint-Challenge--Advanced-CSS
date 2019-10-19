@@ -1,0 +1,76 @@
+//Contact style 
+
+.galaxy {
+    width: 80rem;
+    height: 20rem;
+    .pad-marg();
+
+    @media @phone {
+        width: 100%;
+        margin: 0 auto;
+        }
+   
+}
+
+.contact-form {
+    .custom-layout ();
+    .pad-marg();
+    line-height: 2.5rem;
+    border-top: 1px solid @main-border-color;
+    border-bottom: 1px solid @main-border-color;
+    
+
+    h2 {
+        .pad-marg(@margin: 1rem);
+        color: @river-bend;
+
+        @media @phone {
+            width: 50%;
+            text-align: center;
+        }
+    }
+
+    .form-control{
+        width: 30rem;
+        height:2rem;
+    }
+
+    .textarea {
+        width: 30rem;
+        height: 10rem;
+    }
+
+     .submit {
+        .sgn-up (8rem, 3rem, .3rem);
+        }
+}
+
+.package-form {
+    .custom-layout();
+    .pad-marg ();
+    line-height: 3.5rem;
+    border-top: 1px solid @main-border-color;
+    border-bottom: 1px solid @main-border-color;
+
+    h2 {
+        .pad-marg (@margin: 1rem);
+        color: @river-bend;
+
+        @media @phone {
+            width: 50%;
+            text-align: center;
+        }
+    }
+   
+   .form-control {
+        width: 40rem;
+        height: 3rem;
+
+   }
+ .submit {
+        .sgn-up (15rem, 4rem, .3rem);
+        }
+        margin-bottom: 2rem;
+    
+}
+

@@ -1,0 +1,98 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=.5">
+
+
+    <title>SpaceWalkers - Contact</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+
+
+</head>
+
+<body>
+
+    <div class="nav-bar">
+
+        <h1> SpaceWalkers</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Blog</a>
+            <a href="contact.html">Contact</a>
+            <a href="#">Sign In</a>
+        </nav>
+
+    </div>
+
+    <div class="container contact">
+
+        <img src="img/galaxy.jpg" class="galaxy" alt="galaxy">
+    
+        <section class="contact-form">
+    
+            <h2>SpaceWalkers Contact</h2>
+    
+    
+            <form id="contact-holder" method="post" action="">
+    
+                <input name="name" type="text" class="form-control" placeholder="Your Name" required> <br />
+                <input name="email" type="email" class="form-control" placeholder="Your Email"> <br />
+                <input name="phone" type="phone" class="form-control" placeholder="Your Phone Number" required>
+                <br />
+                <textarea name="instructions" class="textarea" placeholder="Special Instructions or Requests"> </textarea>
+                </br>
+                <label for="instructions">Please type out your questions or feedback above.</label> </br>
+                    <input type="submit"
+                        onclick="alert('Bee Bo BEEP! We have received your email!')"
+                       class="submit" value="Send">
+
+
+        </section>
+
+        <section class="package-form">
+            
+                <h2>SpaceWalkers Magazine Subscription </h2>
+
+
+                <form id="contact-holder" method="post" action="">
+                    <select name="subscriptions" class="form-control" required>
+                        <option value="disable">Subscriptions Types</option>
+                        <option value="null" disabled> </option>
+                        <option value="space">The Deep Dark Space</option>
+                        <option value="planets">All about our Planets</option>
+                        <option value="galaxies">Deep Dive into a new Galaxy!</option>
+                        <option value="blackholes">Learn more about the Unknown we call BLACKHOLES!</option>
+                    </select><br />
+                    <input name="name" type="text" class="form-control" placeholder="Your Name" required> <br />
+                    <input name="email" type="email" class="form-control" placeholder="Your Email"> <br />
+                    <input name="phone" type="phone" class="form-control" placeholder="Your Phone Number" required>
+                    <br />
+                    <input name="adress" type="address" class="form-control" placeholder="Your Address"> <br />
+                    <input type="checkbox" name="magazine" value="Digital"> Digital Subscription<br>
+                    <input type="checkbox" name="magazine" value="Hard-Copy"> Hard-Copy Subscription<br>
+
+
+                    <input type="submit"
+                        onclick="alert('Your subscription is being confirmed. Just Kidding! This will not submit anything!')"
+                       class="submit" value="Send">
+
+
+        </section>
+
+      <footer>
+      <p>Copyright SpaceWalkers 2018</p>
+    </footer>
+
+</body>
+
+</html>
